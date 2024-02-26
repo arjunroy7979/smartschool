@@ -105,10 +105,10 @@ const StaffForm = () => {
                                     <div className='col-6 col-md-3'>
                                         <label>CTET Qualified:</label>
                                         <div>
-                                            <input type='radio' name='flexRadioDefault' id='flexRadioDefault1' />
-                                            <label class="form-check-label" for="flexRadioDefault1">Yes</label>
-                                            <input type='radio' name='flexRadioDefault' id='flexRadioDefault2' className='ml-2' />
-                                            <label class="form-check-label" for="flexRadioDefault2">No</label>
+                                            <input type='radio' name='flexRadioDefault' id='yes' />
+                                            <label class="form-check-label" for="yes">Yes</label>
+                                            <input type='radio' name='flexRadioDefault' id='no' className='ml-2' />
+                                            <label class="form-check-label" for="no">No</label> 
                                         </div>
                                     </div>
                                 </div>
